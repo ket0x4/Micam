@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:id="@id/mode_select_layout" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <com.android.camera.ui.EdgeHorizonScrollView android:id="@id/mode_select_scrollview" android:focusable="false" android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <com.android.camera.ui.ModeSelectView android:gravity="top" android:orientation="horizontal" android:id="@id/mode_select" android:layout_width="fill_parent" android:layout_height="@dimen/mode_select_layout_height" />
+        </com.android.camera.ui.EdgeHorizonScrollView>
+    </FrameLayout>
+    <FrameLayout android:id="@id/fragment_filter" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    <RelativeLayout android:id="@id/v9_bottom_parent" android:clipChildren="false" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="@dimen/mode_select_layout_height">
+        <FrameLayout android:layout_width="@dimen/bottom_picker_width" android:layout_height="@dimen/bottom_picker_width" android:layout_centerVertical="true" android:layout_marginStart="@dimen/bottom_picker_margin" android:layout_alignParentStart="true">
+            <FrameLayout android:id="@id/v9_thumbnail_layout" android:focusable="false" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                <ImageView android:layout_gravity="center" android:id="@id/v9_thumbnail_image" android:focusable="false" android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/ic_thumbnail_background" android:scaleType="centerCrop" android:contentDescription="@string/accessibility_review_thumbnail" />
+                <View android:background="@drawable/bg_thumbnail_background" android:clickable="false" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="center" />
+            </FrameLayout>
+            <ImageView android:layout_gravity="center" android:id="@id/v9_recording_pause" android:focusable="false" android:visibility="gone" android:clickable="false" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_margin="1.0dip" android:scaleType="centerInside" android:contentDescription="@null" />
+            <ProgressBar android:layout_gravity="center" android:id="@id/v9_recording_progress" android:background="@drawable/bg_thumbnail_loading" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:indeterminateDrawable="@drawable/waiting_progress" style="?android:progressBarStyleLarge" />
+        </FrameLayout>
+        <com.android.camera.ui.CameraSnapView android:id="@id/v9_shutter_button_internal" android:focusable="false" android:clickable="true" android:layout_width="@dimen/bottom_snap_width" android:layout_height="@dimen/bottom_snap_width" android:layout_centerInParent="true" android:contentDescription="@string/accessibility_shutter_button" />
+        <ProgressBar android:id="@id/v9_post_processing" android:visibility="gone" android:layout_width="@dimen/bottom_snap_progress_width" android:layout_height="@dimen/bottom_snap_progress_width" android:indeterminateDrawable="@drawable/post_process_progress" android:indeterminateDuration="700" android:layout_centerInParent="true" style="?android:progressBarStyleLarge" />
+        <ImageView android:layout_gravity="center" android:id="@id/v9_camera_picker" android:background="@drawable/bg_thumbnail_background" android:focusable="false" android:layout_width="@dimen/bottom_picker_width" android:layout_height="@dimen/bottom_picker_width" android:src="@drawable/ic_camera_picker" android:scaleType="center" android:layout_centerVertical="true" android:contentDescription="@string/accessibility_camera_picker" android:layout_marginEnd="@dimen/bottom_picker_margin" android:layout_alignParentEnd="true" />
+        <ImageView android:layout_gravity="center" android:id="@id/v9_recording_snap" android:focusable="false" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/bg_recording_snap" android:scaleType="center" android:layout_centerVertical="true" android:contentDescription="@null" android:layout_marginEnd="@dimen/bottom_picker_margin" android:layout_alignParentEnd="true" />
+    </RelativeLayout>
+</FrameLayout>

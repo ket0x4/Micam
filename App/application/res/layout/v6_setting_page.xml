@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.camera.ui.V6SettingPage android:id="@id/v6_setting_page" android:visibility="gone" android:descendantFocusability="afterDescendants" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <com.android.camera.ui.ModeView android:id="@id/setting_mode_view" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent" android:measureAllChildren="false">
+            <com.android.camera.ui.ScreenView android:id="@id/setting_screens" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        </com.android.camera.ui.ModeView>
+    </RelativeLayout>
+    <RelativeLayout style="@style/V6LayoutTopStyle">
+        <TextView android:textAppearance="@style/V6SettingTopTextAppearance" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/camera_mode_options" android:layout_centerInParent="true" />
+        <com.android.camera.ui.V6SettingButton android:id="@id/setting_button" android:paddingLeft="@dimen/setting_button_padding_width" android:paddingRight="@dimen/setting_button_padding_width" android:clickable="true" android:layout_width="wrap_content" android:layout_height="fill_parent" android:src="@drawable/ic_indicator_settings" android:scaleType="center" android:layout_centerVertical="true" android:contentDescription="@string/accessibility_setting_button" android:layout_alignParentEnd="true" />
+    </RelativeLayout>
+    <com.android.camera.ui.SettingDismissButton android:id="@id/dismiss_setting" android:padding="@dimen/small_view_expanded_space" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/setting_dismiss_button_margin_bottom" android:src="@drawable/ic_cancel_mode_selection" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" android:contentDescription="@string/accessibility_mode_dismiss_button" />
+</com.android.camera.ui.V6SettingPage>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_horizontal" android:id="@id/warning_message_layout" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_above="@id/qrcode_viewfinder_layout"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="12.0sp" android:textColor="#ffffffff" android:gravity="center" android:id="@id/warning_message" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="60.0dip" android:layout_marginRight="60.0dip" android:layout_marginBottom="26.0dip" android:shadowColor="#bb000000" android:shadowRadius="2.75" />
+</LinearLayout>

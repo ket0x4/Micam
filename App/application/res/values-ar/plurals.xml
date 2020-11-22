@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="accessibility_focus_face_detect">
+        <item quantity="other">تم التركيز. تم اكتشاف %d وجه</item>
+        <item quantity="zero">تم التركيز. تم اكتشاف %d وجه</item>
+        <item quantity="one">تم التركيز. تم اكتشاف %d وجه</item>
+        <item quantity="two">تم التركيز. تم اكتشاف %d وجوه</item>
+        <item quantity="few">تم التركيز. تم اكتشاف %d وجوه</item>
+        <item quantity="many">تم التركيز. تم اكتشاف %d وجه</item>
+    </plurals>
+</resources>

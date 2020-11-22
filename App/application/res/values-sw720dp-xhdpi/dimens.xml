@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="bottom_control_height">190.0dip</dimen>
+    <dimen name="bottom_control_lower_panel_padding_width">254.0dip</dimen>
+    <dimen name="bottom_control_upper_panel_height">133.0dip</dimen>
+    <dimen name="v6_recording_time_textSize">60.0sp</dimen>
+    <dimen name="v6_seek_bar_padding">159.0dip</dimen>
+    <dimen name="v6_setting_status_bar_margin">25.0dip</dimen>
+    <dimen name="v6_setting_status_bar_textSize">20.0sp</dimen>
+    <dimen name="v6_setting_status_bar_textWidth">80.0dip</dimen>
+</resources>

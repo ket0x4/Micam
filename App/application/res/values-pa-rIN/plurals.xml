@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="accessibility_focus_face_detect">
+        <item quantity="other">ਫ਼ੋਕਸ ਕੀਤਾ ਗਿਆ. %d ਚਿਹਰੇ ਪਛਾਣੇ</item>
+        <item quantity="one">ਫ਼ੋਕਸ ਕੀਤਾ ਗਿਆ. %d ਚਿਹਰਾ ਪਛਾਣਿਆ</item>
+    </plurals>
+</resources>

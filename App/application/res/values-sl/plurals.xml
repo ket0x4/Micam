@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="accessibility_focus_face_detect">
+        <item quantity="other">Osredotočen. %d zaznanih obrazov</item>
+        <item quantity="one">Osredotočen. %d zaznan obraz</item>
+        <item quantity="two">Osredotočen. %d zaznana obraza</item>
+        <item quantity="few">Osredotočen. %d zaznani obrazi</item>
+    </plurals>
+</resources>

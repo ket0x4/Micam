@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="accessibility_focus_face_detect">
+        <item quantity="other">Sufokusuota. Aptikta %d veidų</item>
+        <item quantity="one">Sufokusuota. Aptiktas %d veidas</item>
+        <item quantity="few">Sufokusuota. Aptikti %d veidai</item>
+        <item quantity="many">Sufokusuota. Aptikta %d veidų</item>
+    </plurals>
+</resources>

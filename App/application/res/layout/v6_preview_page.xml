@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.camera.ui.V6PreviewPage android:id="@id/v6_preview_page" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/v6_preview_panel" />
+    <FrameLayout android:id="@id/v6_setting_popup_parent_layout" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/bottom_control_height" android:layout_alignParentBottom="true">
+        <FrameLayout android:id="@id/v6_setting_popup_parent" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    </FrameLayout>
+    <com.android.camera.ui.PortraitButton android:id="@id/portrait_switch_image" android:paddingLeft="@dimen/small_view_expanded_space" android:paddingTop="@dimen/portrait_button_padding_top" android:paddingRight="@dimen/small_view_expanded_space" android:paddingBottom="@dimen/portrait_button_padding_bottom" android:visibility="gone" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_portrait_button" android:layout_alignParentTop="true" android:layout_centerHorizontal="true" android:contentDescription="@string/accessibility_portrait_button" />
+    <com.android.camera.ui.StereoButton android:id="@id/stereo_switch_image" android:padding="@dimen/stereo_button_padding_top_bottom" android:visibility="gone" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_stereo_switch" android:layout_centerHorizontal="true" android:contentDescription="@string/accessibility_stereo_button" />
+    <com.android.camera.ui.TopPopupParent android:id="@id/setting_expanded_popup_parent" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentTop="true" />
+    <ImageView android:id="@id/asd_indicator_image" android:visibility="gone" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/asd_indicator_margin_top" android:layout_marginBottom="@dimen/asd_indicator_margin_bottom" android:layout_above="@id/stereo_switch_image" android:layout_centerHorizontal="true" android:contentDescription="@null" />
+    <include layout="@layout/v6_camera_mode_exit" />
+    <include layout="@layout/qrcode_viewfinder_layout" />
+    <include layout="@layout/v6_camera_preview_control" />
+    <include layout="@layout/orientation_indicator" />
+    <include layout="@layout/camera_message_layout" />
+</com.android.camera.ui.V6PreviewPage>

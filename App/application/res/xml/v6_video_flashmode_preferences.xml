@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<IconListPreference camera:defaultValue="@string/pref_camera_video_flashmode_default" camera:entries="@array/pref_camera_video_flashmode_entries" camera:entryValues="@array/pref_camera_video_flashmode_entryvalues" camera:hasPopup="true" camera:icons="@array/video_flashmode_icons" camera:key="pref_camera_video_flashmode_key" camera:title="@string/pref_camera_flashmode_title"
+  xmlns:camera="http://schemas.android.com/apk/res/com.android.camera" />

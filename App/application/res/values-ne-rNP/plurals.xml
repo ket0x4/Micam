@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="accessibility_focus_face_detect">
+        <item quantity="other">केन्द्रित गरियो। %d अनुहारहरु पत्ता लगाइयो</item>
+        <item quantity="one">केन्द्रित गरियो। %d अनुहार पत्ता लगाइयो</item>
+    </plurals>
+</resources>

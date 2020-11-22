@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="accessibility_focus_face_detect">
+        <item quantity="other">Összpontosítva. %d arc felismerve</item>
+        <item quantity="one">Összpontosítva. %d arc felismerve</item>
+    </plurals>
+</resources>

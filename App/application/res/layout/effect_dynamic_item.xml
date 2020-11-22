@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="@dimen/effect_item_width" android:layout_height="@dimen/effect_item_height"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextureView android:id="@id/effect_item_texture" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <TextView android:id="@id/effect_item_text" android:background="@color/effect_item_text_fullscreen_background" android:layout_width="fill_parent" android:layout_height="@dimen/effect_item_text_height" android:layout_alignParentBottom="true" style="@style/EffectItemText" />
+</RelativeLayout>

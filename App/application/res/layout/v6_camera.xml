@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/camera_app_root" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/v6_preview_page" />
+    <include layout="@layout/v6_setting_status_bar" />
+    <include layout="@layout/top_control_panel" />
+    <include layout="@layout/bottom_control_panel" />
+    <include layout="@layout/v6_setting_page" />
+    <include layout="@layout/v9_smart_camera_control" />
+    <include layout="@layout/on_screen_hint" />
+</RelativeLayout>

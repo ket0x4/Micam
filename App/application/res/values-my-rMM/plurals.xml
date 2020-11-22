@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="accessibility_focus_face_detect">
+        <item quantity="other">ဆုံချက်ချိန်ထားသည်။ မျက်နှာ %d ခု တွေ့ရှိသည်</item>
+    </plurals>
+</resources>

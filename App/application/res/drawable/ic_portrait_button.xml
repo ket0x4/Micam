@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@id/ic_portrait_button_background">
+        <scale android:drawable="@drawable/ic_portrait_button_background" android:scaleWidth="100%" android:scaleHeight="100%" android:scaleGravity="center" />
+    </item>
+    <item android:id="@id/ic_portrait_button_foreground">
+        <scale android:drawable="@drawable/ic_portrait_button_normal" android:scaleWidth="100%" android:scaleHeight="100%" android:scaleGravity="center" />
+    </item>
+</layer-list>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="bottom_control_height">203.32999dip</dimen>
+    <dimen name="bottom_control_lower_panel_padding_width">52.0dip</dimen>
+    <dimen name="bottom_control_upper_panel_height">40.0dip</dimen>
+    <dimen name="bottom_margin_bottom">16.5dip</dimen>
+    <dimen name="expanded_text_item_height">40.0dip</dimen>
+    <dimen name="face_rect_width">1.3399963dip</dimen>
+    <dimen name="popup_seperator_height">0.34000003dip</dimen>
+    <dimen name="preview_edge_touch_slop">30.0dip</dimen>
+    <dimen name="screen_on_proximity_sensor_hint_height">203.09299dip</dimen>
+    <dimen name="top_control_panel_height">40.0dip</dimen>
+    <dimen name="v6_recording_time_textSize">16.669983sp</dimen>
+    <dimen name="v6_seek_bar_padding">23.339996dip</dimen>
+    <dimen name="v6_setting_status_bar_textWidth">50.0dip</dimen>
+</resources>

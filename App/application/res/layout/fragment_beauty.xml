@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/beautycamera_fragment_background" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.android.camera.ui.BeautyTitleView android:gravity="center" android:orientation="horizontal" android:id="@id/beauty_title" android:layout_width="fill_parent" android:layout_height="@dimen/beautycamera_beauty_fragment_tab_height" />
+    <com.android.camera.ui.NoScrollViewPager android:id="@id/viewPager" android:focusable="false" android:layout_width="wrap_content" android:layout_height="0.0dip" android:layout_marginBottom="@dimen/beautycamera_beauty_fragment_recycler_margin" android:layout_weight="1.0" />
+    <ImageView android:id="@id/effect_back" android:background="@color/beautycamera_effect_back_background" android:layout_width="fill_parent" android:layout_height="@dimen/beautycamera_effect_close_btn_height" android:src="@drawable/ic_hide_bottom" android:scaleType="centerInside" android:contentDescription="@null" />
+</LinearLayout>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.camera.ui.SubScreenIndicatorButton android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_centerInParent="true">
+        <TextView android:textSize="@dimen/sub_screen_indicator_button_title_text_size" android:textColor="#ffffffff" android:id="@id/text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" />
+        <TextView android:textSize="@dimen/sub_screen_indicator_button_content_text_size" android:textColor="#66ffffff" android:id="@id/indicator_content" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/sub_screen_indicator_button_content_margin" android:singleLine="true" />
+    </LinearLayout>
+</com.android.camera.ui.SubScreenIndicatorButton>

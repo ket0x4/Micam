@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="accessibility_focus_face_detect">
+        <item quantity="other">Focalizat. %d fețe detectate</item>
+        <item quantity="one">Focalizat. %d față detectată</item>
+        <item quantity="few">Focalizat. %d fețe detectate</item>
+    </plurals>
+</resources>

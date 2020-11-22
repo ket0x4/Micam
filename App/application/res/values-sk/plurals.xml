@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="accessibility_focus_face_detect">
+        <item quantity="other">Zaostrené. Rozpoznaných %d tvárí</item>
+        <item quantity="one">Zaostrené. Rozpoznaná %d tvár</item>
+        <item quantity="few">Zaostrené. Rozpoznané %d tváre</item>
+        <item quantity="many">Zaostrené. Rozpoznanej %d tváre</item>
+    </plurals>
+</resources>

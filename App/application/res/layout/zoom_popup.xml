@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.camera.ui.ZoomPopup android:id="@id/zoom_popup" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layoutDirection="locale" style="@style/SettingPopupWindow"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.android.camera.ui.HorizontalSlideView android:id="@id/horizon_slideview" android:layout_width="fill_parent" android:layout_height="@dimen/zoom_popup_layout_height" />
+    <View android:id="@id/popup_bottom_line" android:layout_below="@id/horizon_slideview" style="@style/PopupSeparator" />
+</com.android.camera.ui.ZoomPopup>

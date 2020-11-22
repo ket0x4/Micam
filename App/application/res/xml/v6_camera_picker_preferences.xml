@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ListPreference camera:defaultValue="@string/pref_camera_id_default" camera:key="pref_camera_id_key"
+  xmlns:camera="http://schemas.android.com/apk/res/com.android.camera" />
