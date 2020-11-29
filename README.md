@@ -9,8 +9,7 @@ Supported devices
 * Mi a2 Lite
 * Meizu 16th
 
-Build:
-- Build app with build.bat
-- Sign apk: https://developer.android.com/studio/publish/app-signing
-- move out\CaticerCam.apk to \module\system\priv-app\MiuiCamera\
-- run create_magisk_module.bat
+Build with Rom:
+- git clone https://github.com/Caticer/caticer-camera -b build-in vendor/MiuiCamera
+- add "$(call inherit-product-if-exists, vendor/MiuiCamera/config.mk)" to rom_device.mk
+- Build Rom

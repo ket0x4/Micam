@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources>
-    <plurals name="accessibility_focus_face_detect">
-        <item quantity="other">Сфакусавана. Выяўлена %d асобы</item>
-        <item quantity="one">Сфакусавана. Выяўлена %d асоба</item>
-        <item quantity="few">Сфакусавана. Выяўлена %d асобы</item>
-        <item quantity="many">Сфакусавана. Выяўлена %d асобаў</item>
-    </plurals>
-</resources>
