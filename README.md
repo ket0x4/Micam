@@ -10,6 +10,6 @@ Supported devices
 * Meizu 16th
 
 Build with Rom:
-- git clone https://github.com/Caticer/caticer-camera -b build-in vendor/MiuiCamera
-- add "$(call inherit-product-if-exists, vendor/MiuiCamera/config.mk)" to rom_device.mk
+- `git clone https://github.com/Caticer/caticer-camera -b build-in vendor/MiuiCamera`
+- add `$(call inherit-product-if-exists, vendor/MiuiCamera/config.mk)` to `rom_device.mk`
 - Build Rom
