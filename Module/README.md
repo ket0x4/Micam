@@ -1,2 +1,0 @@
-# CaticerCam
-Working in progress

@@ -1,4 +1,4 @@
 @echo off
-powershell Compress-Archive -Path module\* CaticerCamv2.zip
+powershell Compress-Archive -Path module\* debug.zip
 echo Done!
 pause
