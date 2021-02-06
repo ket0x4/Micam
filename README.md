@@ -9,8 +9,13 @@ Supported devices
 * Mi a2 Lite
 * Meizu 16th
 
+To-do:
+- Adaptive new application icon
+- disable camera sounds
+
 Build:
 - Build app with build.bat
-- Sign apk: https://developer.android.com/studio/publish/app-signing
-- move out\CaticerCam.apk to \module\system\priv-app\MiuiCamera\
-- run create_magisk_module.bat
+- Create key for Signing with create_key.bat
+- Sign apk with sign_app.bat
+- move out\CaticerCam.apk to module\system\priv-app\MiuiCamera\
+- run create_magisk_module.bat or create zip archive with files inside module.
