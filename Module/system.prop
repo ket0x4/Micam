@@ -1,22 +1,2 @@
 #Camera2Api
-#persist.camera.HAL3.enabled=1
-#persist.camera.eis.enabled=1
-#persist.vendor.camera.stats.test=5
-#persist.camera.stats.test=5
-#persist.vendor.camera.eis.enabled=1
-#persist.vendor.camera.HAL3.enabled=1
-#3camera.aux.packagelist=com.android.camera2,com.whatsapp,com.skype.raider
-#vendor.camera.aux.packagelist=com.android.camera2,com.whatsapp,com.skype.raider
-#camera.hal1.packagelist=com.android.camera2,com.whatsapp,com.skype.raider
-#vendor.camera.hal1.packagelist=com.android.camera2,com.whatsapp,com.skype.raider
-#persist.camera.video.CDS=off
-#persist.camera.CDS=off
-#persist.vendor.camera.video.CDS=off
-#persist.vendor.camera.CDS=off
-
-# brightness fix
-#Persist.vendor.max.brightness=550
-
-#volstep_tweak
-#ro.config.media_vol_steps=25
-#ro.config.vc_call_vol_steps=25
+persist.vendor.camera.dual.camera=1
