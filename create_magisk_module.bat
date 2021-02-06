@@ -1,4 +1,4 @@
 @echo off
-powershell Compress-Archive -Path module\* debug.zip
-echo Done!
+echo wip
+echo Create manually lol
 pause
