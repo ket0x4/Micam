@@ -1,2 +1,2 @@
-#Camera2Api
+#Enable depth camera
 persist.vendor.camera.dual.camera=1
