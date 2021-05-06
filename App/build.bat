@@ -59,7 +59,6 @@ goto start
 
 :sign
 cls
-move %keyname%.keystore temp.keystore
-jarsigner -verbose -sigalg SHA1withRSA -digestalg SHA1 -keystore temp.keystore .\out\MiuiCamera.apk ccam
+jarsigner -verbose -sigalg SHA1withRSA -digestalg SHA1 -keystore %keyname%.keystore .\out\MiuiCamera.apk ccam
 move temp.keystore %keyname%.keystore
 goto start
