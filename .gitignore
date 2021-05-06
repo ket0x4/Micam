@@ -4,3 +4,4 @@ App/apktool.bat
 App/apktool.jar
 App/out/MiuiCamera.apk
 App/ket.keystore
+Module/system/priv-app/MiuiCamera/MiuiCamera.apk
