@@ -5388,7 +5388,7 @@
     invoke-virtual {v4, v1}, Landroid/view/Display;->getMetrics(Landroid/util/DisplayMetrics;)V
 
     .line 268
-    iget v1, v1, Landroid/util/DisplayMetrics;->density:F
+    iget v1, v1, Landroid/util/DisplayMetrics;->noncompatDensity:F
 
     sput v1, Lcom/android/camera/Util;->sPixelDensity:F
 

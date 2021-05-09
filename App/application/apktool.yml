@@ -29,7 +29,7 @@ usesFramework:
   ids:
   - 1
   tag: null
-version: 2.4.1
+version: 2.5.0
 versionInfo:
   versionCode: '2'
   versionName: '2.0'
