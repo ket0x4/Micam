@@ -1,4 +1,4 @@
-VENDOR_PATH := vendor/MiuiCamera
+VENDOR_PATH := vendor/Micam
 
 PRODUCT_COPY_FILES += $(call find-copy-subdir-files,*,$(VENDOR_PATH)/system/etc,system/etc)
 
@@ -11,7 +11,7 @@ PRODUCT_COPY_FILES += $(call find-copy-subdir-files,*,$(VENDOR_PATH)/system/lib6
 PRODUCT_COPY_FILES += $(call find-copy-subdir-files,*,$(VENDOR_PATH)/system/priv-app,system/priv-app)
 
 PRODUCT_PACKAGES += \
-    MiCam
+    Micam
 
 # MiuiCamera
 PRODUCT_PROPERTY_OVERRIDES += \
