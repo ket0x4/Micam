@@ -8,8 +8,10 @@ PRODUCT_COPY_FILES += $(call find-copy-subdir-files,*,$(VENDOR_PATH)/system/lib6
 
 #PRODUCT_COPY_FILES += $(call find-copy-subdir-files,*,$(VENDOR_PATH)/system/vendor,vendor)
 
+PRODUCT_COPY_FILES += $(call find-copy-subdir-files,*,$(VENDOR_PATH)/system/priv-app,system/priv-app)
+
 PRODUCT_PACKAGES += \
-    MiuiCamera
+    MiCam
 
 # MiuiCamera
 PRODUCT_PROPERTY_OVERRIDES += \
