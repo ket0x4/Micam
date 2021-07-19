@@ -1,7 +1,7 @@
 LOCAL_PATH := $(call my-dir)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := MiuiCamera
+LOCAL_MODULE := MiCam
 LOCAL_MODULE_TAGS := optional
 LOCAL_SRC_FILES := MiuiCamera/MiuiCamera.apk
 LOCAL_CERTIFICATE := platform
