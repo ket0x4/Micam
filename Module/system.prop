@@ -1,2 +1,2 @@
-#Enable depth camera
-persist.vendor.camera.dual.camera=1
+#Enable depth camera (disable this option for OSS camera Hal)
+# persist.vendor.camera.dual.camera=1
