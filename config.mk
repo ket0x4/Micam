@@ -16,4 +16,5 @@ PRODUCT_PACKAGES += \
 # MiuiCamera
 PRODUCT_PROPERTY_OVERRIDES += \
     camera.shutter_sound.blacklist=com.android.camera
-    persist.vendor.camera.dual.camera=1
+# Enable next line for pre A11 roms
+#    persist.vendor.camera.dual.camera=1
