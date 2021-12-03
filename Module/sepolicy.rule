@@ -1,0 +1,4 @@
+type vendor_camera_font_file, file_type, vendor_file_type;
+/vendor/camera/fonts(/.*)?        u:object_r:vendor_camera_font_file:s0
+typeattribute platform_app system_executes_vendor_violators;
+r_dir_file(platform_app, vendor_camera_font_file)

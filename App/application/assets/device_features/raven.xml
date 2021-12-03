@@ -271,7 +271,7 @@
     <!--Left margin of count down parent layout for front camera-->
     <float name="camera_front_count_down_margin">-0.5573</float>
     <!--whether camera support portrait mode switch -->
-    <bool name="camera_is_support_portrait_switch">true</bool>
+    <bool name="camera_is_support_portrait_switch">false</bool>
     <bool name="front_fingerprint_sensor">false</bool>
     <bool name="support_parallel_process">false</bool>
     <!--whether the device supports smart cover with small window-->$
@@ -389,10 +389,10 @@
     <!--whether surpport paper mode animation-->
     <bool name="support_papermode_animation">true</bool>
     <!--whether support portrait in camera-->
-    <bool name="is_support_portrait">true</bool>
+    <bool name="is_support_portrait">false</bool>
     <bool name="support_mi_face_beauty">true</bool>
     <!-- whether portrait is using qcom UDCF-Lite solution -->
-    <bool name="is_udcf_portrait">true</bool>
+    <bool name="is_udcf_portrait">false</bool>
     <!-- whether camera support AI lens entry -->
     <bool name="camera_support_ai_lens">true</bool>
     <bool name="camera_support_google_lens">true</bool>
